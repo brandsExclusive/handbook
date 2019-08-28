@@ -1,5 +1,7 @@
 # LE handbook
 
+Only prettier no standard.
+
 ## Engineering
 
 - Engineering
