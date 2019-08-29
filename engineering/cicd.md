@@ -8,8 +8,15 @@ If you merge your pr it is going to production. Make sure you have written tests
 
 ## Dependent changes
 
-Changes must be released in order. If a web app depends on a specific route in an api you must make sure that your api deployment reaches production before you merge the other.
+Changes must be released in order. 
+
+E.g. if you have a change for a web app that depends on a specific route in an api you must make sure that your api deployment reaches production first. 
+
+Service A depends on a feature in service B
+
+1. Merge feature change in service B
+2. Merge dependent change in service A
 
 ## Red green builds.
 
-You can write your e2es before you deploy to production. Merge these into the test repo and watch it go red. Merge your applications PR, tests go green it gets deployed.
+You can write your e2es before you deploy to production. Merge these into the test repo and watch it go red. Merge your applications PR, the tests go green, it gets deployed.
