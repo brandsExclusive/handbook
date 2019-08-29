@@ -1,8 +1,10 @@
 # CI/CD
 
-LE has multiple end to end test suites. These are run against our testing environment constantly. All of the applications in our testing environments are running on the master branch. If all the suites builds are green we can have confidence that our **critical** features are working. If you merge your pr it is going to production. Make sure you have written tests to confirm your feature works.
+LE has multiple end to end test suites. These are run against our testing environment constantly. All of the applications in our testing environments are running on the master branch. If all the builds are green we can have confidence that our **critical** features are working. With this confidence we are constantly promoting our changes to production.
 
 The mentality behind this is that computers are better at finding problems than humans. Manual tests can and should be scripted. Write lots of tests and have confidence in your code base.
+
+If you merge your pr it is going to production. Make sure you have written tests to confirm your feature works.
 
 ## Dependent changes
 
