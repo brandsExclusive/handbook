@@ -10,19 +10,19 @@ If you don't have a login, ask the Head of Engineering Timothy Downs to sign you
 
 1) Log into Rapid7
 
-2) Click 'Add data' button
+2) Click `Add data` button
 
-3) On the 'Add Data Source' page click the 'Quick add' button
+3) On the `Add Data Source` page click the `Quick add` button
 
-4) Enter the log name, the convention is '<env> <service> <type>' e.g Prod Order Service, Test Customer Portal
+4) Enter the log name, the convention is `<env> <service> <type>` e.g Prod Order Service, Test Customer Portal
 
 5) Choose the log set it belongs to
 
 6) Select Token TCP as the method
 
-7) Click the 'Add new log' button
+7) Click the `Add new log` button
 
-8) Copy the field called 'Your log token'
+8) Copy the field called `Your log token`
 
 9) Add a log drain to you heroku app `heroku drains:add https://eu.webhook.logs.insight.rapid7.com/v1/drain/<your log token> --app <heroku app name>`
 
