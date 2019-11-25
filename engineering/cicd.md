@@ -17,6 +17,8 @@ Service A depends on a feature in service B
 1. Merge feature change in service B
 2. Merge dependent change in service A
 
+It is **strongly advisable** to release changes across two distinct set of pull requests with shims to avoid the need for dependent changes. 
+
 ## Red green builds.
 
 You can write your e2es before you deploy to production. Merge these into the test repo and watch it go red. Merge your applications PR, the tests go green, it gets deployed.
