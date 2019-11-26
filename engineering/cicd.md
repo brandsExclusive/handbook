@@ -4,7 +4,7 @@ LE has multiple end to end test suites. These are run against our testing enviro
 
 The mentality behind this is that computers are better at finding problems than humans. Manual tests can and should be scripted. Write lots of tests and have confidence in your code base.
 
-If you merge your pr it is going to production. Make sure you have written tests to confirm your feature works.
+If you merge your PR, it **is** going to production. No code is to live in master in an unreleased state. Make sure you have written tests to confirm your feature works.
 
 ## Dependent changes
 
