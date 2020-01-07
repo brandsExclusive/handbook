@@ -31,3 +31,7 @@ reviewed by a collaborator or maintainer of the codebase. Github repositories ar
 configured to disallow merging pull requests that lack an approval.
 
 Pull requests should be small and many to allow rapid review by team members.
+
+## Weekly Kickoff
+
+At the start of each week it's encouraged that everyone posts a message in the \#general room with what they intend to achieve for the week. This is so eveyone gets a general overview of what everyone else is doing.
