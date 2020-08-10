@@ -19,6 +19,18 @@ Service A depends on a feature in service B
 
 It is **strongly advisable** to release changes across two distinct set of pull requests with shims to avoid the need for dependent changes. 
 
-## Red green builds.
+## Red green builds
 
 You can write your e2es before you deploy to production. Merge these into the test repo and watch it go red. Merge your applications PR, the tests go green, it gets deployed.
+
+## E2E roster
+
+A roster for keeping our builds green. 
+
+https://aussiecommerce.atlassian.net/wiki/spaces/TEC/pages/990445572/E2E+Roster
+
+## Jira Board 
+
+A board to track improvements/fixes to our CI/CD pipeline.
+
+https://aussiecommerce.atlassian.net/secure/RapidBoard.jspa?projectKey=CICD&rapidView=77
