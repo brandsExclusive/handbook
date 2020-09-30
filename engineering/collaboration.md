@@ -26,9 +26,10 @@ Collaborators have sufficient knowledge to review pull requests.
 
 ## Pull Requests
 
-Each code change should go through a pull request no matter how small and be
-reviewed by a collaborator or maintainer of the codebase. Github repositories are
-configured to disallow merging pull requests that lack an approval.
+Each significant code change should go through a pull request no matter how small and be
+reviewed by a collaborator or maintainer of the codebase. Small non-functional changes can be
+made without a pull request.
+Critical github repositories are configured to disallow merging pull requests that lack an approval.
 
 Pull requests should be small and many to allow rapid review by team members.
 
