@@ -27,12 +27,15 @@ Collaborators have sufficient knowledge to review pull requests.
 
 ## Pull Requests
 
-Each significant code change should go through a pull request no matter how small and be
-reviewed by a collaborator or maintainer of the codebase. Small non-functional changes can be
-made without a pull request.
+Each significant code change should go through a code review. All developers are encouraged to review code, 
+though the final "thumbs up to merge" should come from a collaborator or maintainer of the codebase.
+Small non-functional changes can be made without a pull request.
 Critical github repositories are configured to disallow merging pull requests that lack an approval.
 
 Pull requests should be small and many to allow rapid review by team members.
+
+Code should be written with reviewability in mind - so commits should be granular,
+self-contained, and with an appropriate commit message.
 
 ## Weekly Kickoff
 
