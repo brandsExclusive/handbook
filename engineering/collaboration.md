@@ -2,11 +2,12 @@
 
 ## Architecture Changes
 
-An architecture change includes the following:
+An architecture change includes change such as:
 
 * new deployment pipeline strategies
 * new data flows
 * new usage of cloud product
+* new services, or new relationships between services
 
 Before making an architectural change a private [gist](https://gist.github.com/)
 should be created outlining the proposed change and what the problem being
