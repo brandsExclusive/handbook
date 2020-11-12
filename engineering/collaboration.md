@@ -9,7 +9,7 @@ An architecture change includes change such as:
 * new usage of cloud product
 * new services, or new relationships between services
 
-Before making an architectural change a private [gist](https://gist.github.com/)
+Before making an architectural change a [project plan](https://aussiecommerce.atlassian.net/wiki/spaces/TEC/pages/451608677/Project+plans)
 should be created outlining the proposed change and what the problem being
 solved is.
 
@@ -27,7 +27,7 @@ Collaborators have sufficient knowledge to review pull requests.
 
 ## Pull Requests
 
-Each significant code change should go through a code review. All developers are encouraged to review code, 
+Each significant code change should go through a code review. All developers are encouraged to review code,
 though the final "thumbs up to merge" should come from a collaborator or maintainer of the codebase.
 Small non-functional changes can be made without a pull request.
 Critical github repositories are configured to disallow merging pull requests that lack an approval.
