@@ -48,9 +48,9 @@ At the start of each week, a representative from each team should post in the \#
 
 We work in 2 week sprints. Teams have some autonomy in how they run sprints but we suggest a format like this:
 
-**1st Monday:** Sprint start. Each team to meet, decide what their goals are for that sprint, and post in the \#general channel.
-**1st Thursday:** Delivery Lead to remind teams of their action items from the previous sprint
-**2nd Monday:** Team to review progress against sprint goals and ensure focus is maintained
-**2nd Thursday:** Team retro. Delivery Lead to capture action items.
-**2nd Friday:** Tidy up day. Polish things you rushed. Scratch your own itches within the code base.
+**1st Monday:** Sprint start. Each team to meet, decide what their goals are for that sprint, and post in the \#general channel.  
+**1st Thursday:** Delivery Lead to remind teams of their action items from the previous sprint  
+**2nd Monday:** Team to review progress against sprint goals and ensure focus is maintained  
+**2nd Thursday:** Team retro. Delivery Lead to capture action items.  
+**2nd Friday:** Tidy up day. Polish things you rushed. Scratch your own itches within the code base.  
 
