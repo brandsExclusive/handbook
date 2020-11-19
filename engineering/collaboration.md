@@ -42,4 +42,15 @@ self-contained, and with an appropriate commit message.
 
 ## Weekly Kickoff
 
-At the start of each week it's encouraged that everyone posts a message in the \#general room with what they intend to achieve for the week. This is so eveyone gets a general overview of what everyone else is doing.
+At the start of each week, a representative from each team should post in the \#general room with what their team intends to achieve for the week. This is so eveyone gets a general overview of what everyone else is doing.
+
+## 2 week sprints
+
+We work in 2 week sprints. Teams have some autonomy in how they run sprints but we suggest a format like this:
+
+**1st Monday:** Sprint start. Each team to meet, decide what their goals are for that sprint, and post in the \#general channel.
+**1st Thursday:** Delivery Lead to remind teams of their action items from the previous sprint
+**2nd Monday:** Team to review progress against sprint goals and ensure focus is maintained
+**2nd Thursday:** Team retro. Delivery Lead to capture action items.
+**2nd Friday:** Tidy up day. Polish things you rushed. Scratch your own itches within the code base.
+
