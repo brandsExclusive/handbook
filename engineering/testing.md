@@ -8,7 +8,7 @@ We take a pragmatic approach to testing, code coverage is not a metric we track.
 
 All business logic with sufficient complexity should always be covered by unit testing.
 
-We [encourage Test Driven Development](engineering/principles.md#test-driven-development)
+We [encourage Test Driven Development](principles.md#test-driven-development)
 
 ## Bugs
 
