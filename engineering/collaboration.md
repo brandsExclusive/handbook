@@ -2,19 +2,22 @@
 
 ## Architecture Changes
 
-An architecture change includes change such as:
-
-* new deployment pipeline strategies
-* new data flows
-* new usage of cloud product
-* new services, or new relationships between services
-
 Before making an architectural change a [project plan](https://aussiecommerce.atlassian.net/wiki/spaces/TEC/pages/451608677/Project+plans)
 should be created outlining the proposed change and what the problem being
 solved is.
 
 After the initial draft has been generated a link should be posted in the
-\#engineering channel for feedback.
+\#engineering channel for feedback. A code owner should sign off on the top-level approach prior to implementation.
+A project plan could be a quick paragraph or two, if that's all that's needed. 
+
+Examples of architectural changes:
+
+* new deployment pipeline strategies
+* new data flows
+* new usage of cloud product
+* new services, or new relationships between services
+* major refactors within a service
+* significant changes to customer portal (As our largest and least isolated codebase, and the one with the most hidden - but soon to be documented! - rules and conventions, even medium-sized features can warrant more planning)
 
 ## Code Ownership
 
