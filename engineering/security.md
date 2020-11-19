@@ -1,6 +1,6 @@
 # Security
 
-Changes which touch on Personally Identifiable Information, or customer payments require a particularly
+Changes which touch on Personally Identifiable Information (including emails, full names, or addresses), or customer payments require a particularly
 strong attention to security.
 
 * All developers are required to have read the Privacy Policy & Security policy (part of the HR onboarding)
