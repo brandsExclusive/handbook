@@ -6,6 +6,10 @@ The mentality behind this is that computers are better at finding problems than 
 
 If you merge your PR, it **is** going to production. No code is to live in master in an unreleased state. Make sure you have written tests to confirm your feature works.
 
+## CD Setup guideline
+
+https://aussiecommerce.atlassian.net/wiki/spaces/TEC/pages/1422884958/CD+setup+guideline+for+services
+
 ## Dependent changes
 
 Changes must be released in order. 
